@@ -92,16 +92,16 @@ void display(void)
 
  
  glPushMatrix();//roda
- glColor3f(0.0,0.0,0.0);
+ glColor3f(3.1,3.1,3.1);
  glTranslatef(20, -8,-7);
  cylinder(5, 5,3);
 
- glColor3f(0.0,0.0,0.0);
+ glColor3f(3.1,3.1,3.1);
  glTranslatef(-20, 8,7);
  glTranslatef(-5, -8,-7);
  cylinder(5, 5,3);
 
- glColor3f(0.0,0.0,0.0);
+ glColor3f(3.1,3.1,3.1);
  glTranslatef(5, 8,7);
  glRotatef(180,0,180,0);
  glTranslatef(3,-8,-17);
@@ -142,7 +142,7 @@ void display(void)
  glTranslatef(0,-12,0);
  cylinder(2, 2,3);
 
- glColor3f(0.0,0.0,0.0);//knalpot
+ glColor3f(2.3,2.3,2.3);//knalpot
  glRotatef(0,0,0,0);
  glTranslatef(0,0,-52);
  cylinder(1, 1,3);
