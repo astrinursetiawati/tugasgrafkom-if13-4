@@ -147,7 +147,7 @@ void display(void)
  glTranslatef(0,0,-52);
  cylinder(1, 1,3);
 
- glColor3f(1.0,1.0,1.0);
+ glColor3f(3.1,5.1,5.1);
  glRotatef(90,1,0,0);
  glTranslatef(-8,3.5,-12);
  blok(2, 4, 8);
