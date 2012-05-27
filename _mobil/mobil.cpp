@@ -82,7 +82,7 @@ void display(void)
  glTranslatef(0, 7,0);
  blok(10, 2, 2);
  glTranslatef(2, 4.9,-2.5);
- glColor3f(0.9,0.9,0.9);// warna kaca
+ glColor3f(3.5,3.5,3.5);// warna kaca
  blok(0.5, 20, 31);
 
  glRotatef(180, 45, -45, 0);
@@ -152,7 +152,7 @@ void display(void)
  glTranslatef(-8,3.5,-12);
  blok(2, 4, 8);
 
- glColor3f(9.0,0.0,0.0);//lampu atas
+ glColor3f(3.0,1.0,1.0);//lampu atas
  glRotatef(0,0,0,0);
  glTranslatef(-8,28,0);
  cylinder(1, 1,12);
